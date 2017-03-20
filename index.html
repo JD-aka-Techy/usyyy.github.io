@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link rel="stylesheet" href="grid/css/grid.min.css">
     <link rel="stylesheet" href="widget/css/widget.css">
@@ -13,17 +13,15 @@
 <body>
     <ul class="flex-container">
 
+        <!-- Widget 1 -->
         <li class="flex-item">
-
             <div class="main paper-widget">
 
-                <div class="metric">
-                    <h3>Paper</h3>
-                    <h2>12.6<span> kg</span></h2>
-                </div>
+                <h2>Paper</h2>
+                <h1>12.6<span class="metric">kg</span></h1>
 
-                <div class="button-style">
-                    <button class="expand paper"><div>+</div></button>
+                <div class="button">
+                    <button class="expand paper"><div class="button-style">+</div></button>
                 </div>
 
             </div>
@@ -38,17 +36,19 @@
             </div>
         </li>
 
+        <!-- Widget 2 -->
         <li class="flex-item">
             <div class="main compost-widget">
-                <div class="metric">
-                    <h3>Compost</h3>
-                    <h2>8.4<span> kg</span></h2>
+
+                <h2>Compost</h2>
+                <h1>8.4<span class="metric">kg</span></h1>
+
+                <div class="button">
+                    <button class="expand compost"><div class="button-style">+</div></button>
                 </div>
 
-                <div class="button-style">
-                    <button class="expand compost"><div>+</div></button>
-                </div>
             </div>
+
             <div class="add-info add-compost-info">
                 <form class="input-form" action="">
                     <p>Please enter the new measurement:</p>
@@ -59,106 +59,98 @@
             </div>
         </li>
 
+        <!-- Widget 3 -->
         <li class="flex-item">
-            <!-- Widget 3 -->
-    <div class="main glass-widget">
+            <div class="main glass-widget">
 
-        <div class="metric">
-            <h3>Glass</h3>
-            <h2>18.9<span> kg</span></h2>
-        </div>
+                <h2>Glass</h2>
+                <h1>18.9<span class="metric">kg</span></h1>
 
-        <div class="button-style">
-            <button class="expand glass"><div>+</div></button>
-        </div>
+                <div class="button">
+                    <button class="expand glass"><div class="button-style">+</div></button>
+                </div>
 
-    </div>
+            </div>
 
-    <div class="add-info add-glass-info">
-        <form class="input-form" action="">
-            <p>Please enter the new measurement:</p>
-            <br>
-            <input class="input-text-area" type="text" name="measurement" value="Placeholder" size="36">
-            <input class="form-submit-button" type="submit" value="Add">
-        </form>
-    </div>
+            <div class="add-info add-glass-info">
+                <form class="input-form" action="">
+                    <p>Please enter the new measurement:</p>
+                    <br>
+                    <input class="input-text-area" type="text" name="measurement" value="Placeholder" size="36">
+                    <input class="form-submit-button" type="submit" value="Add">
+                </form>
+            </div>
         </li>
 
+        <!-- Widget 4 -->
         <li class="flex-item">
-            <!-- Widget 4 -->
-    <div class="main metal-widget">
+            <div class="main metal-widget">
 
-        <div class="metric">
-            <h3>Metal</h3>
-            <h2>4.6<span> kg</span></h2>
-        </div>
+                <h2>Metal</h2>
+                <h1>4.6<span class="metric">kg</span></h1>
 
-        <div class="button-style">
-            <button class="expand metal"><div>+</div></button>
-        </div>
+                <div class="button">
+                    <button class="expand metal"><div class="button-style">+</div></button>
+                </div>
 
-    </div>
+            </div>
 
-    <div class="add-info add-metal-info">
-        <form class="input-form" action="">
-            <p>Please enter the new measurement:</p>
-            <br>
-            <input class="input-text-area" type="text" name="measurement" value="Placeholder" size="36">
-            <input class="form-submit-button" type="submit" value="Add">
-        </form>
-    </div>
+            <div class="add-info add-metal-info">
+                <form class="input-form" action="">
+                    <p>Please enter the new measurement:</p>
+                    <br>
+                    <input class="input-text-area" type="text" name="measurement" value="Placeholder" size="36">
+                    <input class="form-submit-button" type="submit" value="Add">
+                </form>
+            </div>
         </li>
 
+        <!-- Widget 5 -->
         <li class="flex-item">
-            <!-- Widget 5 -->
-    <div class="main plastic-widget">
+            <div class="main plastic-widget">
 
-        <div class="metric">
-            <h3>Plastic</h3>
-            <h2>17.2<span> kg</span></h2>
-        </div>
+                <h2>Plastic</h2>
+                <h1>17.2<span class="metric">kg</span></h1>
 
-        <div class="button-style">
-            <button class="expand plastic"><div>+</div></button>
-        </div>
+                <div class="button">
+                    <button class="expand plastic"><div class="button-style">+</div></button>
+                </div>
 
-    </div>
+            </div>
 
-    <div class="add-info add-plastic-info">
-        <form class="input-form" action="">
-            <p>Please enter the new measurement:</p>
-            <br>
-            <input class="input-text-area" type="text" name="measurement" value="Placeholder" size="36">
-            <input class="form-submit-button" type="submit" value="Add">
-        </form>
-    </div>
+            <div class="add-info add-plastic-info">
+                <form class="input-form" action="">
+                    <p>Please enter the new measurement:</p>
+                    <br>
+                    <input class="input-text-area" type="text" name="measurement" value="Placeholder" size="36">
+                    <input class="form-submit-button" type="submit" value="Add">
+                </form>
+            </div>
         </li>
 
         <!-- Widget 6 -->
         <li class="flex-item">
-            <!-- Widget 3 -->
-    <div class="main general-widget">
+            <div class="main general-widget">
 
-        <div class="metric">
-            <h3>General</h3>
-            <h2>10.3<span> kg</span></h2>
-        </div>
+                <h2>General</h2>
+                <h1>10.3<span class="metric">kg</span></h1>
 
-        <div class="button-style">
-            <button class="expand general"><div>+</div></button>
-        </div>
+                <div class="button">
+                    <button class="expand general"><div class="button-style">+</div></button>
+                </div>
 
-    </div>
+            </div>
 
-    <div class="add-info add-general-info">
-        <form class="input-form" action="">
-            <p>Please enter the new measurement:</p>
-            <br>
-            <input class="input-text-area" type="text" name="measurement" value="Placeholder" size="36">
-            <input class="form-submit-button" type="submit" value="Add">
-        </form>
-    </div>
+            <div class="add-info add-general-info">
+                <form class="input-form" action="">
+                    <p>Please enter the new measurement:</p>
+                    <br>
+                    <input class="input-text-area" type="text" name="measurement" value="Placeholder" size="36">
+                    <input class="form-submit-button" type="submit" value="Add">
+                </form>
+            </div>
         </li>
+
     </ul>
 
     <script src="widget/js/widget.js"></script>

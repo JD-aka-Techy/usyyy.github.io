@@ -1,30 +1,31 @@
 $(document).ready(function() {
-    $(".button-style > .paper").click(function() {
+    
+    $(".button > .paper").click(function() {
         $(".add-paper-info").slideToggle(400);
         $(this).toggleClass('rotate'); // for button
     });
 
-    $(".button-style > .compost").click(function() {
+    $(".button > .compost").click(function() {
         $(".add-compost-info").slideToggle(400);
         $(this).toggleClass('rotate'); // for button
     });
 
-    $(".button-style > .glass").click(function() {
+    $(".button > .glass").click(function() {
         $(".add-glass-info").slideToggle(400);
         $(this).toggleClass('rotate'); // for button
     });
 
-    $(".button-style > .metal").click(function() {
+    $(".button > .metal").click(function() {
         $(".add-metal-info").slideToggle(400);
         $(this).toggleClass('rotate'); // for button
     });
 
-    $(".button-style > .plastic").click(function() {
+    $(".button > .plastic").click(function() {
         $(".add-plastic-info").slideToggle(400);
         $(this).toggleClass('rotate'); // for button
     });
 
-    $(".button-style > .general").click(function() {
+    $(".button > .general").click(function() {
         $(".add-general-info").slideToggle(400);
         $(this).toggleClass('rotate'); // for button
     });
